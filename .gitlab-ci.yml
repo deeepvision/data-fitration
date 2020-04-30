@@ -1,0 +1,31 @@
+stages:
+  - test
+  - publish
+
+image: node:10-alpine
+before_script:
+  - node -v
+  - npm -v
+  - npm config set cache dev/cache
+  - npm cache verify
+  - npm install
+
+cache:
+  paths:
+    - dev/cache
+
+Test:
+  stage: test
+  script:
+    - npm run lint
+    - npm run test
+    - npm run build
+
+Publish:
+  stage: publish
+  script:
+    - npm run build
+    - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+    - npm publish --access public
+  only:
+    - tags

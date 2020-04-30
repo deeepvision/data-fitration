@@ -1,0 +1,51 @@
+{
+  "name": "@deepvision/data-fitration",
+  "description": "Fitration Data Kit",
+  "version": "0.0.1",
+  "author": "Vitaliy Angolenko <v.angolenko@deepvision.team>",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.deepvision.team/fitration/data"
+  },
+  "scripts": {
+    "products": "node lib/migrations/products",
+    "categories": "node lib/migrations/categories",
+    "measures": "node lib/migrations/measures",
+    "nutrients": "node lib/migrations/nutrients",
+    "di": "node lib/migrations/di",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest --runInBand",
+    "lint": "eslint ./src/**/**/*.ts",
+    "fix": "eslint --fix ./src/**/**/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3",
+    "@types/node": "^12.6.8",
+    "@types/jest": "^24.0.15",
+    "@deepvision/test-kit-jest": "^1.0.6",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "eslint": "^6.1.0",
+    "@deepvision/eslint-config": "^6.1.9",
+    "@typescript-eslint/parser": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "cyrillic-to-translit-js": "^3.0.1",
+    "minimist": "^1.2.0",
+    "mongodb": "^3.3.3"
+  },
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@deepvision/tool-kit": "^1.3.4",
+    "chalk": "^3.0.0",
+    "csv": "^5.1.3",
+    "csv-parse": "^4.6.5",
+    "fs-extra": "^8.1.0",
+    "shortid": "^2.2.15",
+    "winston": "^3.2.1"
+  }
+}

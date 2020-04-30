@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "uid": "sElPuJx8",
+        "imagesDir": "1_Vegetables_and_Vegetable_Products",
+        "csvFileName": "1_Vegetables_and_Vegetable_Products_fin.csv",
+        "name": "Овощи"
+    },
+    {
+        "id": "2",
+        "uid": "U7IXlcRSO",
+        "imagesDir": "2_Legumes_and_Legume_Products",
+        "csvFileName": "2_Legumes_and_Legume_Products_fin.csv",
+        "name": "Бобы и бобовые продукты"
+    },
+    {
+        "id": "3",
+        "uid": "ArTqU5rQ-8",
+        "imagesDir": "3_Nut_and_Seed_Products",
+        "csvFileName": "3_Nut_and_Seed_Products_fin.csv",
+        "name": "Орехи и семена"
+    },
+    {
+        "id": "4",
+        "uid": "J-Kr32fnZ",
+        "imagesDir": "4_Cereal_Grains_and_Pasta",
+        "csvFileName": "4_Cereal_Grains_and_Pasta_fin.csv",
+        "name": "Зерна и макароны"
+    },
+    {
+        "id": "5",
+        "uid": "QnKjalti7",
+        "imagesDir": "5_Fruits_and_Fruit_Juices",
+        "csvFileName": "5_Fruits_and_Fruit_Juices_fin.csv",
+        "name": "Фрукты и фруктовые соки"
+    },
+    {
+        "id": "6.1",
+        "uid": "GnttT2ph3",
+        "imagesDir": "6.1_Vegetable_oil",
+        "csvFileName": "6.1_Vegetable_oil.csv",
+        "name": "Растительные жиры и масла"
+    },
+    {
+        "id": "6.2",
+        "uid": "4yshJS3_c",
+        "imagesDir": "6.2_Animal_oil",
+        "csvFileName": "6.2_Animal_oil.csv",
+        "name": "Животные жиры и масла"
+    },
+    {
+        "id": "7.1",
+        "uid": "eh_Od6Tig",
+        "imagesDir": "7.1_Diary_products",
+        "csvFileName": "7.1_Diary_products_fin.csv",
+        "name": "Молочные продукты"
+    },
+    {
+        "id": "7.2",
+        "uid": "JlDdoeES2",
+        "imagesDir": "7.2_Egg_Products_fin",
+        "csvFileName": "7.2_Egg_Products_fin.csv",
+        "name": "Яичные продукты"
+    },
+    {
+        "id": "8",
+        "uid": "7sA4zXiQX",
+        "imagesDir": "8_Baked_Products_fin",
+        "csvFileName": "8_Baked_Products_fin.csv",
+        "name": "Хлеб и выпечка"
+    },
+    {
+        "id": "9",
+        "uid": "g60YsneMzl",
+        "imagesDir": "9_Poultry_Products_fin",
+        "csvFileName": "9_Poultry_Products_fin.csv",
+        "name": "Птица"
+    },
+    {
+        "id": "10",
+        "uid": "l9UDHp4HG",
+        "imagesDir": "10_Beef_Products_fin",
+        "csvFileName": "10_Beef_Products_fin.csv",
+        "name": "Говядина"
+    },
+    {
+        "id": "11",
+        "uid": "_0OfrMDhsN",
+        "imagesDir": "11_Pork_Products_fin",
+        "csvFileName": "11_Pork_Products_fin.csv",
+        "name": "Свинина"
+    },
+    {
+        "id": "12",
+        "uid": "SxpKv8E2a",
+        "imagesDir": "12_Lamb_Veal_game_meat_fin",
+        "csvFileName": "12_Lamb_Veal_game_meat_fin.csv",
+        "name": "Баранина, телятина и дичь"
+    },
+    {
+        "id": "13",
+        "uid": "wmXhu9-Tb",
+        "imagesDir": "13_Finfish_and_Shellfish_Products_fin",
+        "csvFileName": "13_Finfish_and_Shellfish_Products_fin.csv",
+        "name": "Рыба и морские продукты"
+    },
+    {
+        "id": "14",
+        "uid": "CX7cl3pYjI",
+        "imagesDir": "14_Sweets_fin",
+        "csvFileName": "14_Sweets_fin.csv",
+        "name": "Сладости"
+    },
+    {
+        "id": "15",
+        "uid": "QbH2Gho7h",
+        "imagesDir": "15_Beverages_fin",
+        "csvFileName": "15_Beverages_fin.csv",
+        "name": "Напитки"
+    },
+    {
+        "id": "16",
+        "uid": "fDy1KI52S",
+        "imagesDir": "16_Breakfast_cereals_fin",
+        "csvFileName": "16_Breakfast_cereals.csv",
+        "name": "Хлопья, мюсли и сухие завтраки"
+    },
+    {
+        "id": "17",
+        "uid": "kar_t4pvv",
+        "imagesDir": "17_Fastfood_fin",
+        "csvFileName": "17_Fastfood_fin.csv",
+        "name": "Фастфуд"
+    }
+]

@@ -1,0 +1,26 @@
+###
+# @author 💧DeepVision <support@deepvision.team>
+# @generator @pcg/gitignore
+###
+
+# NPM
+node_modules/
+
+# Jest test coverage
+dev/coverage/
+
+# Hotfix for IDE to resolve path aliases
+webpack.config.js
+
+# JetBrains IDEs configuration folder
+.idea
+
+# VSCode configuration folder
+.vscode
+
+# Library distribution folder
+lib/
+
+
+### [UGC custom]
+### [/UGC]
