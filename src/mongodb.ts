@@ -5,7 +5,7 @@ export class Mongo {
 
     public static async connect(): Promise<MongoClient> {
         return new Promise((resolve, reject) => {
-            MongoClient.connect('mongodb://root:root@localhost:27017', {}, (err, client) => {
+            MongoClient.connect('mongodb://root:root@localhost:27018', {}, (err, client) => {
                 if (err) {
                     reject(err);
                 }
