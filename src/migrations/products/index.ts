@@ -100,7 +100,7 @@ const bootstrap = async (): Promise<void> => {
             nameDivider: parseInt(product.name, 10),
             articul,
             categoryId: categoryInfo.uid,
-            detailDividerNumber: detailPageNameDivider,
+            detailNameDivider: detailPageNameDivider,
     
             type: parseInt(product.type_of_product),
             heatTreatment: parseInt(product.heat_treatment),
