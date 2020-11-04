@@ -44,7 +44,7 @@ const bootstrap = async (): Promise<void> => {
     const db = client.db('fitration');
 
     const Product = db.collection('Product');
-    const rows = await parseCSV(`/mnt/d/EDEN Google Drive/csv/${categoryInfo.csvFileName}`);
+    const rows = await parseCSV(`/mnt/3CE40D9FE40D5C90/Mega/Вегетарианство/Состав продуктов/БД сайта/Fin/csv/${categoryInfo.csvFileName}`);
 
     const products = <Array<Product>>rows;
 
@@ -81,15 +81,39 @@ const bootstrap = async (): Promise<void> => {
             }
         }
 
-        const fullName = product.full_name;
-        const formattedName = fullName.replace(/[^a-zA-Z0-9а-яА-Я- ]/gu, '').replace(/[-]{2,}/gu, '-');
+        // const fullName = product.full_name;
+        // const formattedName = fullName.replace(/[^a-zA-Z0-9а-яА-Я- ]/gu, '').replace(/[-]{2,}/gu, '-');
     
-        let alias = new CyrillicToTranslit().transform(formattedName.toLowerCase(), '-');
+        // let alias = new CyrillicToTranslit().transform(formattedName.toLowerCase(), '-');
     
-        alias = alias.replace(/[^a-zA-Z0-9а-яА-Я- ]/gu, '');
+        // alias = alias.replace(/[^a-zA-Z0-9а-яА-Я- ]/gu, '');
+
+        // let fullName = null;
+
+        if (product.full_name.includes('(')) {
+            let arr = product.full_name.split('');
+            let idx = product.full_name.indexOf('(');
+            let level = 0;
+    
+            for (let i = idx; i < arr.length; i++) {
+                if (arr[i] === ')') {
+                    level -= 1;
+                }
+                if (arr[i] === ',' && level > 0) {
+                    arr[i] = ';';
+                }
+                if (arr[i] === '(') {
+                    level += 1;
+                }
+            }
+    
+            product.full_name = arr.join('');
+        }
+
+        // let alias = product.alias;
 
         const input = {
-            alias,
+            alias: product.alias,
             image,
             name: {
                 type: 'MLValue',
@@ -102,7 +126,7 @@ const bootstrap = async (): Promise<void> => {
             categoryId: categoryInfo.uid,
             detailNameDivider: detailPageNameDivider,
     
-            type: parseInt(product.type_of_product),
+            type: product.type_of_product,
             heatTreatment: parseInt(product.heat_treatment),
             kOnePriece: 0,
         };

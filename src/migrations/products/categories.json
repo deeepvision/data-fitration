@@ -36,91 +36,91 @@
     },
     {
         "id": "6.1",
-        "uid": "SxpKv8E2a",
+        "uid": "T6djEdFMmV",
         "imagesDir": "6.1_Vegetable_oil",
         "csvFileName": "6.1_Vegetable_oil.csv",
         "name": "Растительные жиры и масла"
     },
     {
         "id": "6.2",
-        "uid": "T6djEdFMmV",
+        "uid": "U7IXlcRSO",
         "imagesDir": "6.2_Animal_oil",
         "csvFileName": "6.2_Animal_oil.csv",
         "name": "Животные жиры и масла"
     },
     {
         "id": "7.1",
-        "uid": "eh_Od6Tig",
+        "uid": "Go_CUj4D8",
         "imagesDir": "7.1_Diary_products",
         "csvFileName": "7.1_Diary_products_fin.csv",
         "name": "Молочные продукты"
     },
     {
         "id": "7.2",
-        "uid": "Go_CUj4D8",
+        "uid": "J-Kr32fnZ",
         "imagesDir": "7.2_Egg_Products_fin",
         "csvFileName": "7.2_Egg_Products_fin.csv",
         "name": "Яичные продукты"
     },
     {
         "id": "8",
-        "uid": "02soXdsw2",
+        "uid": "mzY610psG",
         "imagesDir": "8_Baked_Products_fin",
         "csvFileName": "8_Baked_Products_fin.csv",
         "name": "Хлеб и выпечка"
     },
     {
         "id": "9",
-        "uid": "J-Kr32fnZ",
+        "uid": "JlDdoeES2",
         "imagesDir": "9_Poultry_Products_fin",
         "csvFileName": "9_Poultry_Products_fin.csv",
         "name": "Птица"
     },
     {
         "id": "10",
-        "uid": "JlDdoeES2",
+        "uid": "KuaAElAqqp",
         "imagesDir": "10_Beef_Products_fin",
         "csvFileName": "10_Beef_Products_fin.csv",
         "name": "Говядина"
     },
     {
         "id": "11",
-        "uid": "KuaAElAqqp",
+        "uid": "QbH2Gho7h",
         "imagesDir": "11_Pork_Products_fin",
         "csvFileName": "11_Pork_Products_fin.csv",
         "name": "Свинина"
     },
     {
         "id": "12",
-        "uid": "QbH2Gho7h",
+        "uid": "QnKjalti7",
         "imagesDir": "12_Lamb_Veal_game_meat_fin",
         "csvFileName": "12_Lamb_Veal_game_meat_fin.csv",
         "name": "Баранина, телятина и дичь"
     },
     {
         "id": "13",
-        "uid": "QnKjalti7",
+        "uid": "SxpKv8E2a",
         "imagesDir": "13_Finfish_and_Shellfish_Products_fin",
         "csvFileName": "13_Finfish_and_Shellfish_Products_fin.csv",
         "name": "Рыба и морские продукты"
     },
     {
         "id": "14",
-        "uid": "XRw0kk91Gi",
+        "uid": "6WfIRMJ74",
         "imagesDir": "14_Sweets_fin",
         "csvFileName": "14_Sweets_fin.csv",
         "name": "Сладости"
     },
     {
         "id": "15",
-        "uid": "U7IXlcRSO",
+        "uid": "XRw0kk91Gi",
         "imagesDir": "15_Beverages_fin",
         "csvFileName": "15_Beverages_fin.csv",
         "name": "Напитки"
     },
     {
         "id": "16",
-        "uid": "_0OfrMDhsN",
+        "uid": "4VNWj5UsZ",
         "imagesDir": "16_Breakfast_cereals_fin",
         "csvFileName": "16_Breakfast_cereals.csv",
         "name": "Хлопья, мюсли и сухие завтраки"
