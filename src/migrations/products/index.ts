@@ -110,10 +110,10 @@ const bootstrap = async (): Promise<void> => {
             product.full_name = arr.join('');
         }
 
-        // let alias = product.alias;
+        let alias = product.alias.toLowerCase();
 
         const input = {
-            alias: product.alias,
+            alias: alias,
             image,
             name: {
                 type: 'MLValue',
