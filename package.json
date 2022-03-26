@@ -30,7 +30,7 @@
     "cyrillic-to-translit-js": "^3.0.1",
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mongodb": "^3.3.3",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
